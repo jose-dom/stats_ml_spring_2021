@@ -20,17 +20,18 @@
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <div class="sb-sidenav-menu-heading">Course Info</div>
-                            <a class="nav-link" href="index.html">
-                                Course Info
+                            <div class="sb-sidenav-menu-heading">Home</div>
+                            <a class="nav-link" href="#course_info">
+                                Course Information
+                            </a>
+                            <a class="nav-link" href="#resources">
+                                Resources
                             </a>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">
                         <div class="small">
-                            Professor - Chi-ken Lu
-                            <br>
-                            TA - Jose Dominguez
+                            2021
                         </div>
                     </div>
                 </nav>
@@ -38,22 +39,61 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
-                        <h2 class="mt-4">Course Information</h2>
-                        <p class="">
+                        <h2 class="mt-4" id="course_info">Course Information</h2>
+                        <p>
                             Rutgers University - Newark
                             <br>
                             21:219:329 Statistics & Machine Learning
                         </p>
-                        <h4 class="mt-4">Instructor</h4>
-                        <p class="">
-                            Chi-ken Lu 
+                        <p>
+                            <strong>Instructor</strong> - Professor Chi-Ken Lu
+                            <br>
+                            <strong>Teaching Assistant</strong> - Jose Dominguez
                         </p>
+                        <h6 class="mt-4 font-weight-bold">Course Description</h6>
+                        <p>
+                            This course is about understanding how one can make machine infer in a broad context
+                            given a set of previously explored data. In fact, the situation arises in reality such as
+                            email editors automatically completing sentences, cell phones being able to identify
+                            faces, the future car predicting potential accidents and acting accordingly, and more.
+                            The essential questions of machine learning include: what is learning, what is inference,
+                            and how shall we justify on the basis of statistics? Implementation using Python will be
+                            instructed with the sci-kit learn library. Projects related to deep learning, natural
+                            language processing, and non-parametric Bayesian learning are encouraged.
+                        </p>
+                        <h6 class="mt-4 font-weight-bold">Prerequisite(s)</h6>
+                        <p>
+                            The students should have taken Calculus II or equivalently familiar with derivative,
+                            integration, and optimization. Prior knowledge of linear algebra, probability, and
+                            statistics are helpful but not necessary.
+                        </p>
+                        <h6 class="mt-4 font-weight-bold">Textbook</h6>
+                        <p>
+                            <a href="http://faculty.marshall.usc.edu/gareth-james/ISL/" target="_blank">
+                                An Introduction to Statistical Learning with Application in R (James, Witten, Hastie,
+                                Tibshirani)
+                            </a>
+                        </p>
+                        <h6 class="mt-4 font-weight-bold">This course covers the following topics</h6>
+                        <ol>
+                            <li>Python: numpy, pandas, jupyter notebook</li>
+                            <li>Linear regression</li>
+                            <li>Logistic regression (linear classification)</li>
+                            <li>K-nearest neighbor regression and classification</li>
+                            <li>Decision-tree regression and classification</li>
+                            <li>Bootstrapping</li>
+                            <li>Bias-variance tradeoff</li>
+                            <li>Random forest</li>
+                            <li>Principal component analysis</li>
+                            <li>Hard and soft K-means</li>
+                            <li>Support vector machine</li>
+                        </ol>
                     </div>
                 </main>
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Rutgers University - Newark | Statistics & Machine Learning - Spring 2021</div>
+                            <div class="text-muted">Rutgers University - Newark, Department of Mathematics and Computer Science</div>
                         </div>
                     </div>
                 </footer>
